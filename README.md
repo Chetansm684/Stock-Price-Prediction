@@ -19,20 +19,20 @@ To run the script locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-### git clone <repository-url>
-### cd <repository-folder>
+   git clone <repository-url>
+   cd <repository-folder>
 
 2. Install dependencies:
 
 Ensure you have Python installed (version 3.x) and install the required packages:
-### pip install numpy pandas matplotlib quandl scikit-learn
+     pip install numpy pandas matplotlib quandl scikit-learn
 
 3. Set up Quandl API Key:
 
 Sign up for a free Quandl account and obtain an API key from your account settings. Replace 'YOUR_QUANDL_API_KEY' in main.py with your actual API key.
 
 4. Run the script:
-### python app.py
+    python app.py
 
 ## Usage
 After running main.py, the script will:
