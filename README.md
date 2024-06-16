@@ -2,7 +2,7 @@
 
 This Python script fetches historical stock price data from Quandl, performs K-Nearest Neighbors (KNN) classification and regression, and evaluates the model performance. It demonstrates how to use machine learning algorithms for stock price prediction and analysis.
 
-<img width="600" alt="Figure_1.png" src="https://github.com/Chetansm684/Stock-Price-Prediction/Figure_1.png">
+<img width="600" alt="Figure_1.png" src="https://github.com/Chetansm684/Stock-Price-Prediction/image/Figure_1.png">
 
 ## Overview
 
