@@ -6,7 +6,7 @@ This Python script fetches historical stock price data from Quandl, performs K-N
 
 ## Overview
 
-The script `main.py` utilizes Quandl's API to fetch historical stock prices of Tata Global Beverages (TATAGLOBAL) from the National Stock Exchange (NSE). It then:
+The script `app.py` utilizes Quandl's API to fetch historical stock prices of Tata Global Beverages (TATAGLOBAL) from the National Stock Exchange (NSE). It then:
 - Plots the closing prices of the stock.
 - Computes additional features (`Open - Close` and `High - Low`) for classification and regression.
 - Splits the data into training and testing sets.
