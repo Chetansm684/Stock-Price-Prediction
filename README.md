@@ -25,6 +25,7 @@ To run the script locally, follow these steps:
 2. Install dependencies:
 
 Ensure you have Python installed (version 3.x) and install the required packages:
+    
     ```bash
     pip install numpy pandas matplotlib quandl scikit-learn
 
