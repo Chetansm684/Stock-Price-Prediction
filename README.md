@@ -2,6 +2,8 @@
 
 This Python script fetches historical stock price data from Quandl, performs K-Nearest Neighbors (KNN) classification and regression, and evaluates the model performance. It demonstrates how to use machine learning algorithms for stock price prediction and analysis.
 
+<img width="600" alt="Figure_1.png" src="https://github.com/Chetansm684/Stock-Price-Prediction/Figure_1.png">
+
 ## Overview
 
 The script `main.py` utilizes Quandl's API to fetch historical stock prices of Tata Global Beverages (TATAGLOBAL) from the National Stock Exchange (NSE). It then:
@@ -11,30 +13,6 @@ The script `main.py` utilizes Quandl's API to fetch historical stock prices of T
 - Trains a KNN classifier to predict stock price movements (up or down).
 - Trains a KNN regressor to predict actual stock prices.
 - Evaluates the models using accuracy scores for classification and RMSE for regression.
-
-## Setup
-
-To run the script locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-
-2. Install dependencies:
-
-Ensure you have Python installed (version 3.x) and install the required packages:
-    
-    pip install numpy pandas matplotlib quandl scikit-learn
-
-3. Set up Quandl API Key:
-
-Sign up for a free Quandl account and obtain an API key from your account settings. Replace 'YOUR_QUANDL_API_KEY' in `app.py` with your actual API key.
-
-4. Run the script:
-    ```bash
-    python app.py
 
 ## Usage
 After running main.py, the script will:
